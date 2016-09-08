@@ -294,6 +294,8 @@ if RUNTIME_ENV in ("gae", "gae_dev"):
         return jsonify(result)
 
 
+from weixin.WeiXin import echo
+
 ########################################
 ## Start Application
 ########################################
